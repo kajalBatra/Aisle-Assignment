@@ -15,7 +15,6 @@ class UserCollectionViewCell: UICollectionViewCell {
     func setData(_ data: User) {
         userImageView.setImage(string: data.avatar)
         userImageView.addBlur()
-        
         userNameLabel.text = data.firstName
     }
     

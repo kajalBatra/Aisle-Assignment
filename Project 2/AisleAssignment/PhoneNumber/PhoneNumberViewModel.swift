@@ -13,7 +13,6 @@ protocol PhoneNumberViewModelDelegate: AnyObject {
 }
 
 class PhoneNumberViewModel: NSObject {
-    
     var countryCode: String?
     var phoneNumber: String?
     
@@ -41,7 +40,6 @@ class PhoneNumberViewModel: NSObject {
         }
         
         let param: [String:Any] = ["number": (countryCode ?? "") + (phoneNumber ?? "")]
-        
         APIService.shared.request(type: PhoneNumberModel.self, url: .phone_number, httpMethod: .post, param: param) { [weak self] response, error in
             DispatchQueue.main.async {
                 

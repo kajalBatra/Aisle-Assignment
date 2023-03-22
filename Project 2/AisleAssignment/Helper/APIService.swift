@@ -71,11 +71,11 @@ class APIService: NSObject {
             
             URLSession.shared.dataTask(with: request) { data, response, error in
                 Loader.hide()
+                
                 guard error == nil else {
                     completion(nil, error)
                     return
                 }
-                
                 guard let data = data else {return}
                 
                 do {

@@ -8,14 +8,19 @@
 import Foundation
 
 struct UserProfileData: Codable {
-    var invites : Invites?
+    var matches : Matches?
     var likes   : Likes?
+    
+    enum CodingKeys: String, CodingKey {
+        case likes
+        case matches = "invites"
+    }
 }
 
 
-// Invites
-struct Invites: Codable {
-    var profiles            : [InvitedUser] = []
+// Matches
+struct Matches: Codable {
+    var profiles            : [MatchUser] = []
     var totalPages          : Int?
     var pendingInvitation   : Int?
     
@@ -25,7 +30,7 @@ struct Invites: Codable {
     }
 }
 
-struct InvitedUser: Codable {
+struct MatchUser: Codable {
     var details: GeneralInformation?
     var photos: [Photos] = []
     

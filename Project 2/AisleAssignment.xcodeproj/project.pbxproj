@@ -20,6 +20,9 @@
 		77E1C25F29C4704900D8FED3 /* PhoneNumberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E1C25E29C4704900D8FED3 /* PhoneNumberViewController.swift */; };
 		77E1C26129C4706700D8FED3 /* OTPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E1C26029C4706700D8FED3 /* OTPViewController.swift */; };
 		77E1C26329C4707E00D8FED3 /* NotesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E1C26229C4707E00D8FED3 /* NotesListViewController.swift */; };
+		77EF58BF29CAE39C0012E35B /* MatchCollectionViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77EF58BE29CAE39C0012E35B /* MatchCollectionViewManager.swift */; };
+		77EF58C129CAE5AF0012E35B /* MatchCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77EF58C029CAE5AF0012E35B /* MatchCollectionViewCell.swift */; };
+		77EF58C329CAE82D0012E35B /* LikesCollectionViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77EF58C229CAE82D0012E35B /* LikesCollectionViewManager.swift */; };
 		77F7C78E29C4A09400717445 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F7C78D29C4A09400717445 /* Utility.swift */; };
 		77F7C79029C4A3B700717445 /* OTPModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F7C78F29C4A3B700717445 /* OTPModel.swift */; };
 /* End PBXBuildFile section */
@@ -40,6 +43,9 @@
 		77E1C25E29C4704900D8FED3 /* PhoneNumberViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneNumberViewController.swift; sourceTree = "<group>"; };
 		77E1C26029C4706700D8FED3 /* OTPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPViewController.swift; sourceTree = "<group>"; };
 		77E1C26229C4707E00D8FED3 /* NotesListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesListViewController.swift; sourceTree = "<group>"; };
+		77EF58BE29CAE39C0012E35B /* MatchCollectionViewManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchCollectionViewManager.swift; sourceTree = "<group>"; };
+		77EF58C029CAE5AF0012E35B /* MatchCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchCollectionViewCell.swift; sourceTree = "<group>"; };
+		77EF58C229CAE82D0012E35B /* LikesCollectionViewManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikesCollectionViewManager.swift; sourceTree = "<group>"; };
 		77F7C78D29C4A09400717445 /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
 		77F7C78F29C4A3B700717445 /* OTPModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -111,6 +117,9 @@
 			children = (
 				77E1C26229C4707E00D8FED3 /* NotesListViewController.swift */,
 				77DC49CF29C5D53400A4034E /* UserCollectionViewCell.swift */,
+				77EF58C029CAE5AF0012E35B /* MatchCollectionViewCell.swift */,
+				77EF58BE29CAE39C0012E35B /* MatchCollectionViewManager.swift */,
+				77EF58C229CAE82D0012E35B /* LikesCollectionViewManager.swift */,
 			);
 			path = Notes;
 			sourceTree = "<group>";
@@ -207,6 +216,7 @@
 			files = (
 				77F7C78E29C4A09400717445 /* Utility.swift in Sources */,
 				77E1C26129C4706700D8FED3 /* OTPViewController.swift in Sources */,
+				77EF58BF29CAE39C0012E35B /* MatchCollectionViewManager.swift in Sources */,
 				7704E16E29C45043000CA023 /* APIService.swift in Sources */,
 				7704E15A29C44F9F000CA023 /* AppDelegate.swift in Sources */,
 				77DC49D229C5F79100A4034E /* PhoneNumberViewModel.swift in Sources */,
@@ -214,6 +224,8 @@
 				77F7C79029C4A3B700717445 /* OTPModel.swift in Sources */,
 				77DC49D529C5FD4700A4034E /* Extensions.swift in Sources */,
 				77E1C26329C4707E00D8FED3 /* NotesListViewController.swift in Sources */,
+				77EF58C129CAE5AF0012E35B /* MatchCollectionViewCell.swift in Sources */,
+				77EF58C329CAE82D0012E35B /* LikesCollectionViewManager.swift in Sources */,
 				77DC49CE29C5C3B900A4034E /* UserModel.swift in Sources */,
 				7704E15C29C44F9F000CA023 /* SceneDelegate.swift in Sources */,
 				77DC49D029C5D53400A4034E /* UserCollectionViewCell.swift in Sources */,
